@@ -1,0 +1,21 @@
+{
+  "name": "banasher-alnokhba-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "تطبيق Android لنظام بنشر النخبة المحاسبي عبر Apache Cordova",
+  "scripts": {
+    "build:android": "cordova build android --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "12.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
